@@ -5,7 +5,7 @@ function sendMessage() {
         // Aqui você pode adicionar a lógica para processar a mensagem do usuário e obter a resposta do chatbot
         // Por enquanto, vamos apenas simular uma resposta do chatbot
         setTimeout(function() {
-            addBotMessage("Desculpe, ainda estou aprendendo. Não sei como responder a isso.");
+            addBotMessage("Bem vindo ao chat bot.");
         }, 500);
         document.getElementById("user-input").value = "";
     }
